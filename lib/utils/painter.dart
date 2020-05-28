@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 
-class ClassPainter extends CustomPainter {
+class Painter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     Paint amberPaint = Paint()
@@ -51,8 +51,8 @@ class ClassPainter extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(ClassPainter oldDelegate) => false;
+  bool shouldRepaint(Painter oldDelegate) => false;
 
   @override
-  bool shouldRebuildSemantics(ClassPainter oldDelegate) => false;
+  bool shouldRebuildSemantics(Painter oldDelegate) => false;
 }
